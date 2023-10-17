@@ -1,0 +1,36 @@
+# Sistema de Adoção de Pets
+
+## Configuração
+
+- **Dependências**:
+  - [bcrypt](https://www.npmjs.com/package/bcrypt): ^5.1.1
+  - [cookie-parser](https://www.npmjs.com/package/cookie-parser): ^1.4.6
+  - [cors](https://www.npmjs.com/package/cors): ^2.8.5
+  - [express](https://www.npmjs.com/package/express): ^4.18.2
+  - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken): ^9.0.2
+  - [mongoose](https://www.npmjs.com/package/mongoose): ^7.5.2
+  - [multer](https://www.npmjs.com/package/multer): ^1.4.5-lts.1
+  - [nodemon](https://www.npmjs.com/package/nodemon): ^3.0.1
+
+## Objetivo
+
+O objetivo deste projeto é permitir o cadastro de usuários interessados em adotar ou disponibilizar animais de estimação para adoção. Ele fornece um sistema de gerenciamento para facilitar a adoção de pets.
+
+## Funcionalidades
+
+1. **Verificação de Token**: Implementa a verificação de token para garantir a segurança e autenticação durante a sessão do usuário.
+
+2. **CRUDs (Create, Read, Update, Delete)**: Oferece operações para criar, ler, atualizar e excluir informações de usuários e pets. Isso permite o gerenciamento de perfis de usuários e informações de animais disponíveis para adoção.
+
+3. **Tratamento de Exceções**: O sistema lida com exceções e erros de forma apropriada para garantir uma experiência mais robusta e confiável para os usuários.
+
+4. **Design Responsivo Mínimo**: O projeto possui um design minimamente responsivo para garantir que seja acessível em diferentes dispositivos.
+
+## Como Usar
+
+Abra o terminal nas pastas backend e frontend e digite o comando npm start
+
+
+## Autor
+
+- [Marcos Willian Ferreira da Silva] [19Marcos99@gmail.com]
